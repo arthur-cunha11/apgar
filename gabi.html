@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabi-chan: A Quase Perfeita</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #121212;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 660px;
+            margin: 50px auto;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+            border: 1px solid #333333;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ccad47;
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 20px;
+            color: #d4af37;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 span.subtitle {
+            font-size: 1.2rem;
+            color: #aaaaaa;
+            display: block;
+            margin-top: -5px;
+            font-weight: normal;
+        }
+
+        .badge {
+            background: linear-gradient(135deg, #a1a1a1 0%, #616161 100%);
+            color: #ffffff;
+            padding: 10px 25px;
+            font-weight: bold;
+            border-radius: 50px;
+            display: inline-block;
+            font-size: 1.2rem;
+            margin: 15px 0;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+        }
+
+        .info-section {
+            margin-top: 30px;
+            text-align: left;
+            background: #252525;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #616161;
+        }
+
+        .audio-section {
+            border-left: 4px solid #d4af37;
+        }
+
+        h3 {
+            color: #d4af37;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 1.05rem;
+        }
+
+        .audio-player-container {
+            margin: 15px 0;
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+
+        .audio-label {
+            font-size: 0.95rem;
+            font-weight: bold;
+            color: #aaaaaa;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        audio {
+            width: 100%;
+            outline: none;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            opacity: 0.6;
+            border-top: 1px solid #333333;
+            padding-top: 20px;
+        }
+
+        .arthur-note {
+            color: #ffffff;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="./assets/image/gabi.jpg" alt="Foto da Gabi" class="profile-img">
+
+        <h1>Dra. Gabrielli <span class="subtitle">(ガビちゃん - Gabi-chan)</span></h1>
+
+        <div class="badge">🥈 APGAR: 9/10</div>
+        <p><em>(Segundo critérios estritos da obstetrícia: excelente pontuação, mas ainda falta aquele 1 ponto para
+                alcançar o Arthur-senpai)</em></p>
+
+        <div class="info-section">
+            <h3>🦂🏹 O Paradoxo Astral: Escorpião ou Sagitário?</h3>
+            <p>A ciência médica ainda não explicou como uma pessoa não sabe o próprio signo, mas a nossa hipótese é de
+                que essa confusão astral justifica o comportamento caótico da Dra. Gabi:</p>
+            <ul>
+                <li><strong>O Crocs Árvore de Natal:</strong> Os astros não revelam o signo dela, mas o Crocs entrega
+                    tudo. Com essa quantidade absurda de pins pendurados, ela brilha mais no corredor do que qualquer
+                    constelação de Sagitário ou Escorpião. Uma verdadeira árvore de Natal da obstetrícia.</li>
+                <li><strong>A Dieta das Tartarugas Ninja:</strong> Sobrevive à base de pizza literalmente todo santo
+                    dia. Se for Sagitário, é pelo desapego com a cozinha; se for Escorpião, é porque o molho de tomate
+                    combina com os planos de vingança.</li>
+                <li><strong>Fragrância Exclusiva:</strong> Tem o superpoder de sair do bloco cirúrgico exalando aquele
+                    aroma inconfundível de "essência de parto de emergência". Um luxo que nem a linha de perfumes mais
+                    cara da França consegue replicar.</li>
+            </ul>
+        </div>
+
+        <div class="info-section audio-section">
+            <h3>🎤 World Tour: Recitais Internacionais</h3>
+            <p>Diretamente dos palcos mais concorridos do karaokê do pronto-socorro, aprecie os maiores sucessos
+                poliglota da nossa GO favorita:</p>
+
+            <div class="audio-player-container">
+                <span class="audio-label">🇯🇵 Faixa 1: J-Pop / Anime Theme (Japanese Cover)</span>
+                <audio controls>
+                    <source src="./assets/sound/japones.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+
+            <div class="audio-player-container">
+                <span class="audio-label">🇨🇳 Faixa 2: C-Pop Traditional (Mandarin Cover)</span>
+                <audio controls>
+                    <source src="./assets/sound/mandarim.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h3>Outras Informações Críticas</h3>
+            <p>🩺 <strong>Especialidade:</strong> G.O. — Abreviação para Ginecologia e Obstetrícia, embora a pronúncia
+                correta seja <em>"GÔ"</em>.</p>
+            <p>🗣️ <strong>Poliglota:</strong> Fala português, japonês, mandarim e medicinês, com vários termos desconhecidos
+                e inventados na hora.</p>
+            <p>🤷‍♀️ <strong>Humildade:</strong> Em desenvolvimento, aceitando gradativamente a supremacia verbal (e de
+                APGAR) do Arthur-senpai.</p>
+        </div>
+
+        <div class="footer">
+            <p><strong>さようなら (Sayounara)</strong> / <strong>再见 (Zàijiàn)!</strong></p>
+            <p>Site oficialmente desenvolvido para verdades saudáveis da <strong class="arthur-note">Gabi (APGAR
+                    9/10)</strong>.</p>
+            <p><small><em>*Nota do sistema: É cientificamente comprovado que ouvir as faixas acima aumenta o APGAR do
+                        ouvinte em até 1 ponto. Recomenda-se o uso com moderação.</em> 🎧🩺</small></p>
+            <a href="index.html" style="color: #d4af37; text-decoration: none; font-weight: bold;">⬅️ Voltar para o Arthur-senpai</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
